@@ -40,7 +40,7 @@ FROM income_data AS inc
 --calculate the rent to income ratio.
 SELECT user_id , (SUM (rent_amount)/ SUM(income_amount))*100
 
-
+![ratio](ratio.png)
 
 3. Situation: You meet with Karen, our VP of Product, David, our CEO, and Joey, our Head of Data & Analytics, to review your analysis. It's clear that income and the ability to pay rent are correlated, and we want to provide more insight to our landlord partners than a univariate correlation. 
     

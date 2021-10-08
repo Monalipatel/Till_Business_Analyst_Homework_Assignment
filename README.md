@@ -44,7 +44,7 @@ SELECT user_id , (SUM (rent_amount)/ SUM(income_amount))*100
 
 ### 3. Situation: You meet with Karen, our VP of Product, David, our CEO, and Joey, our Head of Data & Analytics, to review your analysis. It's clear that income and the ability to pay rent are correlated, and we want to provide more insight to our landlord partners than a univariate correlation. 
     
-    You're sent on a discovery project to find what else might be interesting. Write 1-2 paragraphs explaining the question(s) you would ask yourself and/or stakeholders to dig deeper, the approach you would take to discovery, and what data you would test first (assuming it's all at your disposal)?
+### You're sent on a discovery project to find what else might be interesting. Write 1-2 paragraphs explaining the question(s) you would ask yourself and/or stakeholders to dig deeper, the approach you would take to discovery, and what data you would test first (assuming it's all at your disposal)?
     
 I would ask more questions around following topics;
 

@@ -65,9 +65,8 @@ What’s the approximate rate increase every year at lease renewal?
 ### 4. Which variables have significant explanatory power on hybrid vehicle pricing? Which do not? Is this surprising?
 ### 5. How confident are you in your model's fit? Why?
 
-We have a dataset that contains nine columns: carid, vehicle, year, msrp, accelerate, mpg, mpgmpge, carclass, carclass_id. msrp could be a good variable to start with because higher numbers are expected to go higher. Though there are other factors like mpg or mpgmpge as well. But we will think about them later. We will fit the model where msrp will be expressed as a function of the weight. we have a coefficient of 9.5.
+I have a dataset that contains nine columns: carid, vehicle, year, msrp, accelerate, mpg, mpgmpge, carclass, carclass_id. msrp could be a good variable to start with because higher numbers are expected to go higher. Though there are other factors like mpg or mpgmpge as well. But I will think about them later. I will fit the model where msrp will be expressed as a function of the weight and coefficient of 9.5.
 Let’s add a second variable and see how it affects the regression performance. I choose mpg and mpgmpge. In this new model, mpg is expressed as the function of both mpg and mpgmpge. The coefficient of weight is -2.49 which is very lower than before.
+I will visualize the result of the regression model. I will plot the regression line that is the fitted values or the predicted values with the confidence interval. 
 
-we will visualize the result of the regression model. We will plot the regression line that is the fitted values or the predicted values with the confidence interval. 
-
-we show a scatter of msrp versus accelerate. We get the impression that there is no straight line so it is not a good fit but if we show a scatter of mpg versus mpgmpge. We get the impression that a straight line provides a reasonably good fit.
+I show a scatter of msrp versus accelerate. I get the impression that there is no straight line so it is not a good fit but if I show a scatter of mpg versus mpgmpge. I get the impression that a straight line provides a reasonably good fit.

@@ -1,6 +1,6 @@
-### Till_Business_Analyst_Homework_Assignment
+# Till_Business_Analyst_Homework_Assignment
 
-# Exercise : 1
+### Exercise : 1
 
 # 1. Provide the SQL code that generates the rent-to-income ratios for every user as of the latest date both income and rent data are available.
 # 2. What analysis would you run (without actually coding it up!) to understand the impacts of income against ability to pay rent? Feel free to provide thorough explanation and your thought process.
